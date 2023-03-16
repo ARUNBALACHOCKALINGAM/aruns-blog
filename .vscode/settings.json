@@ -4,5 +4,12 @@
     "editor.codeActionsOnSave": {
         "source.fixAll": true,
         "source.organizeImports": true
-    }
+    },
+    "cSpell.ignoreWords": [
+        "Viewports",
+        "aruns",
+        "callout",
+        "commitlint",
+        "unoptimized"
+    ]
 }
