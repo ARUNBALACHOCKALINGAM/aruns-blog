@@ -9,7 +9,7 @@ export interface INavbar {}
 const MENU_LIST = [
   { text: 'Home', href: '/' },
   { text: 'About', href: '/about' },
-  { text: 'Work', href: '/contact' },
+  { text: 'Work', href: '/work' },
 ];
 
 const Navbar: React.FC<INavbar> = () => {

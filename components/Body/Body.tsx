@@ -1,3 +1,4 @@
+import Techstack from '../Techstack/Techstack';
 import styles from './Body.module.css';
 
 export interface IBody {}
@@ -21,6 +22,7 @@ const Body: React.FC<IBody> = () => {
             provide scalable and efficient software applications{' '}
           </p>
         </div>
+        <Techstack />
       </div>
     </div>
   );

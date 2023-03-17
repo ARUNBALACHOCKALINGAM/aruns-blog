@@ -1,5 +1,5 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
-import Navbar from './Body';
+import Navbar, { IBody } from './Body';
 import { mockNavbarProps } from './Body.mocks';
 
 export default {
@@ -17,4 +17,4 @@ export const Base = Template.bind({});
 
 Base.args = {
   ...mockNavbarProps.base,
-} as INavbar;
+} as IBody;
