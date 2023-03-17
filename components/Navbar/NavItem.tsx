@@ -4,12 +4,13 @@ type Props = {
   active: boolean;
   name: string;
   link: string;
+  icon: string;
 };
 
-export default function NavItem({ name, link, active }: Props) {
+export default function NavItem({ name, link, active, icon }: Props) {
   return (
     <Link href={link} className={`${active ? styles.item : styles.itemNon}`}>
-      {name}
+      {name} {icon}
     </Link>
   );
 }

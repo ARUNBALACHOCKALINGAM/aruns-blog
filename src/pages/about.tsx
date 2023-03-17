@@ -1,3 +1,5 @@
+import Hero from '../../components/Hero/Hero';
+
 export default function About() {
-  return <div>about</div>;
+  return <Hero />;
 }

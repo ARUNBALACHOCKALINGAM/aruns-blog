@@ -7,9 +7,9 @@ import styles from './Navbar.module.css';
 export interface INavbar {}
 
 const MENU_LIST = [
-  { text: 'Home', href: '/' },
-  { text: 'About', href: '/about' },
-  { text: 'Work', href: '/work' },
+  { text: 'Home', href: '/', icon: '💁' },
+  { text: 'About', href: '/about', icon: '📝' },
+  { text: 'Work', href: '/work', icon: '👜' },
 ];
 
 const Navbar: React.FC<INavbar> = () => {
@@ -40,6 +40,7 @@ const Navbar: React.FC<INavbar> = () => {
               <NavItem
                 name={menu.text}
                 link={menu.href}
+                icon={menu.icon}
                 active={activeIdx === idx}
               />
             </div>
