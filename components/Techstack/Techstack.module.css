@@ -1,0 +1,145 @@
+.skills {
+  width: 55%;
+  padding: 5px 18px 5px 18px;
+  align-items: center;
+  color: #767676;
+  display: flex;
+  font-size: 1.7rem;
+  margin-top: 5%;
+}
+
+.skills p {
+  border-right: 2px solid var(--foreground);
+  color: var(--foreground);
+  font-family: 'Avenir', sans-serif;
+  font-weight: 400;
+  margin-right: 7rem;
+  padding-right: 2rem;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  list-style: none;
+}
+
+.skills ul li {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 2.5rem;
+  justify-content: center;
+  width: 2.5rem;
+}
+
+.skills ul li img {
+  height: 2rem;
+  width: 3.4rem;
+}
+
+/*  (992px and less) */
+@media only screen and (max-width: 992px) {
+  .skills {
+    width: 70%;
+    margin-top: 9%;
+  }
+  .skills p {
+    border-right: 2px solid var(--foreground);
+    color: var(--foreground);
+    font-size: 16px;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 400;
+    margin-right: 5rem;
+    padding-right: 1rem;
+  }
+
+  .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .skills ul li {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    width: 2rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and less) */
+@media only screen and (max-width: 768px) {
+  .skills {
+    width: 90%;
+    margin-top: 9%;
+  }
+
+  .skills p {
+    border-right: 2px solid var(--foreground);
+    color: var(--foreground);
+    font-size: 16px;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 400;
+    margin-right: 4rem;
+    padding-right: 1rem;
+  }
+
+  .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .skills ul li {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 2.2rem;
+    justify-content: center;
+    width: 2.2rem;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .skills {
+    padding: 5px 18px 5px 0px;
+    margin-left: 2rem;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .skills p {
+    display: none;
+  }
+
+  .skills ul {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.2rem;
+    list-style: none;
+  }
+
+  .skills ul li {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 3.5rem;
+    justify-content: center;
+    width: 3.5rem;
+  }
+
+  .skills ul img {
+    width: 1rem;
+  }
+}
