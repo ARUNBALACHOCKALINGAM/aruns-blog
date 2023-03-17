@@ -13,6 +13,11 @@ const MENU_LIST = [
 ];
 
 const Navbar: React.FC<INavbar> = () => {
+  const scrollToTop = () => {
+    const body = document.querySelector('body');
+    body ? body.scrollTo(0, 0) : '';
+  };
+
   const [navActive, setNavActive] = useState(false);
   const [activeIdx, setActiveIdx] = useState(0);
   return (
@@ -23,7 +28,10 @@ const Navbar: React.FC<INavbar> = () => {
         ) : (
           <RxHamburgerMenu
             size={24}
-            onClick={() => setNavActive((prev) => !prev)}
+            onClick={() => {
+              scrollToTop();
+              setNavActive((prev) => !prev);
+            }}
           />
         )}
       </span>
