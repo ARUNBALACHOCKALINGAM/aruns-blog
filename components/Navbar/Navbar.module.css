@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container a {
+  padding: 5px 18px 5px 18px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: none;
+  }
+
+  .navContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 55%;
+    padding-top: 65px;
+  }
+
+  .navContainer a {
+    padding: 20px 18px 20px 0px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .linkContainer {
+    padding: 10px 10px 10px 0px;
+  }
+
+  .hamburger {
+    display: block;
+    padding: 5px 18px 5px 18px;
+    position: absolute;
+    right: 1px;
+    top: 16px;
+  }
+}

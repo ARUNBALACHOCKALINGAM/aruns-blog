@@ -1,0 +1,131 @@
+.container {
+  width: 55%;
+  padding: 5px 18px 5px 18px;
+}
+
+.toggle {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.toggle li {
+  list-style: none;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.toggletwo {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.toggletwo li {
+  list-style: none;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.natwest {
+  line-height: 28px;
+  margin-top: 3%;
+}
+
+.yellow {
+  line-height: 28px;
+  margin-top: 3%;
+}
+
+.pageBody {
+  margin-top: 10%;
+}
+
+.yellowDiv {
+  margin-top: 10%;
+}
+
+.highlight {
+  background-color: var(--secondary-accent);
+  color: var(--foreground);
+}
+
+.natwestHead {
+  font-size: 2rem;
+  background-color: var(--secondary-accent);
+  color: var(--foreground);
+}
+
+.yellowHead {
+  font-size: 2rem;
+  width: fit-content;
+}
+
+/*  (992px and less) */
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 70%;
+  }
+  .yellowHead {
+    font-size: 1.8rem;
+    width: fit-content;
+  }
+  .natwestHead {
+    font-size: 1.8rem;
+    width: fit-content;
+  }
+
+  .natwest {
+    line-height: 24px;
+  }
+
+  .yellow {
+    line-height: 24px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and less) */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  .yellowHead {
+    font-size: 1.6rem;
+    width: fit-content;
+  }
+  .natwestHead {
+    font-size: 1.6rem;
+    width: fit-content;
+  }
+
+  .natwest {
+    line-height: 20px;
+  }
+
+  .yellow {
+    line-height: 20px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  .yellowHead {
+    font-size: 1.5rem;
+    width: fit-content;
+  }
+  .natwestHead {
+    font-size: 1.5rem;
+    width: fit-content;
+  }
+
+  .natwest {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .yellow {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

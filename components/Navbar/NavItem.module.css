@@ -1,0 +1,14 @@
+.item {
+  padding: 5px 18px 5px 18px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.itemNon {
+  padding: 5px 18px 5px 18px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
