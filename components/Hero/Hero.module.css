@@ -115,7 +115,7 @@
   }
 
   .imageContent img {
-    height: 250px;
     width: 90%;
+    transform: translateX('200px');
   }
 }
