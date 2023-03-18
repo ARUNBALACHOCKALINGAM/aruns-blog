@@ -17,20 +17,20 @@ export default function Footer() {
       </div>
       <div className={styles.images}>
         <a
-          href="https://www.linkedin.com/in/glorialo94/"
+          href="https://www.linkedin.com/in/arun-bala-34308620a/"
           target="_blank"
           className="link-block-6 w-inline-block"
         >
           <AiFillLinkedin fontSize={32} />
         </a>
         <a
-          href="mailto:gloria.lo@live.com.au?subject=Hello!"
+          href="https://github.com/ARUNBALACHOCKALINGAM"
           className="link-block-6 w-inline-block"
         >
           <AiFillGithub fontSize={32} />
         </a>
         <a
-          href="https://medium.com/@glorialodesign"
+          href="https://www.instagram.com/arun_bala_ig/"
           target="_blank"
           className="link-block-6 w-inline-block"
         >
