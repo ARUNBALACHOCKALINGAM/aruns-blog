@@ -19,7 +19,7 @@ const Navbar: React.FC<INavbar> = () => {
   };
 
   const [navActive, setNavActive] = useState(false);
-  const [activeIdx, setActiveIdx] = useState(0);
+  const [activeIdx, setActiveIdx] = useState(-1);
   return (
     <>
       <span className={styles.hamburger}>
