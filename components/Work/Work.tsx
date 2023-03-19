@@ -13,16 +13,17 @@ export default function Work() {
           </mark>
         </h3>
         <p id="04d1931f-92ee-48f3-8100-7fbb5b9430a7" className={styles.natwest}>
-          🥰 This internship will always be special to my heart, it gave me hope
-          that you will always be rewarded if your efforts are genuine and
-          sincere. I genuinely thank
+          🥰 This internship holds a special place in my heart, as it instilled
+          within me the belief that genuine and sincere efforts are always
+          rewarded. I am grateful to{' '}
           <mark className={styles.highlight}>
             <em> Jagmeet sir </em>
-          </mark>
-          for taking this initiative. I learned a lot and met some good people
-          on this journey and thanks to my fellow intern
-          <mark className={styles.highlight}> Khayti heda </mark>who accompanied
-          me on this journey.
+          </mark>{' '}
+          sir for taking the initiative to offer this opportunity, which allowed
+          me to gain invaluable experience and make meaningful connections with
+          good people. Additionally, I extend my thanks to my fellow intern,{' '}
+          <mark className={styles.highlight}> Khayti heda </mark>, for joining
+          me on this journey and providing support along the way.
         </p>
         <div className={styles.yellowDiv}>
           <p id="dce0ff6d-d9b2-4f79-b041-4bb59e42fe4b"></p>
@@ -40,16 +41,15 @@ export default function Work() {
             id="3e520a2e-945d-4bbb-90bd-d56c00bab801"
             className={styles.yellow}
           >
-            ✨ I would say that yellow marks the beginning of my career as a
-            software developer. I have fallen in love with the process of
-            development, solving problems, and being valued for doing something
-            that I&#x27;m good at. This is such a great feeling. During my
-            internship, I gained hands-on learning experience and worked on
-            production-level code within a week. I&#x27;m so grateful for this
-            opportunity, and I thank all my colleagues here. They mentored me
-            and provided me with a lot of knowledge, for which I will always be
-            grateful. I hope this journey continues and turns out to be a great
-            one.
+            ✨ Yellow marks the outset of my career as a software developer, an
+            experience that has fostered my passion for the development process,
+            problem-solving, and receiving recognition for my skills. The
+            opportunity to gain practical knowledge through an internship,
+            including working on production-level code within a week, has been
+            invaluable to my growth. I am deeply appreciative of my colleagues
+            for their guidance and mentorship, which have contributed
+            significantly to my knowledge acquisition. I look forward to
+            continuing this journey and achieving even greater heights.
           </p>
           <p id="134fb851-28cb-4041-ad8f-b5c38324b3e5" className=""></p>
           <p id="6fbebe94-42b8-4998-a5a6-78c3cfa598e5" className=""></p>
