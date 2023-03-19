@@ -8,19 +8,20 @@ export default function Goals() {
         <div className={styles.content}>
           <h2>🙏 Stay Humble</h2>
           <p>
-            It doesn't matter whether you're the president, manager, homeless or
-            average kid on the street. Treat others with respect as you would
-            yourself because ultimately we're all human sharing the same wants
-            and needs and facing our own battles everyday. Stay true to yourself
-            and stay true to others.
+            It's important to stay grounded, no matter how successful or
+            talented we become. Staying humble means acknowledging that there is
+            always room for improvement, and always being open to feedback and
+            constructive criticism. I think it's essential to treat everyone
+            with respect and kindness, no matter their background or position in
+            life.
           </p>
           <h2>😍 Be Passionate</h2>
           <p>
-            If you don't enjoy what you're doing - move. You are not a tree.
-            Channel your energy into something you believe in. I'm fortunate to
-            be inspired and surrounded by motivated people who enjoy what they
-            do. We only have so much time on this earth to live - so why waste
-            it?
+            I believe that when we are passionate about something, we are more
+            likely to put in the hard work and effort needed to achieve our
+            goals. Passion drives us to be creative, innovative, and dedicated
+            to our craft. Pursuing our passions can also bring a sense of
+            fulfillment and purpose to our lives
           </p>
           <h2>🤓 Always be learning</h2>
           <p>
