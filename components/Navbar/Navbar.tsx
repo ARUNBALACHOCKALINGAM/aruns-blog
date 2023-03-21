@@ -1,4 +1,5 @@
-import { useState } from 'react';
+/* eslint-disable react-hooks/exhaustive-deps */
+import { useEffect, useState } from 'react';
 import { RxCross1, RxHamburgerMenu } from 'react-icons/rx';
 import ThemeChanger from '../ThemeChanger/ThemeChanger';
 import NavItem from './NavItem';
@@ -18,8 +19,22 @@ const Navbar: React.FC<INavbar> = () => {
     body ? body.scrollTo(0, 0) : '';
   };
 
+  let index;
+
   const [navActive, setNavActive] = useState(false);
   const [activeIdx, setActiveIdx] = useState(-1);
+
+  useEffect(() => {
+    console.log(window.location.pathname);
+    index =
+      window.location.pathname === '/work'
+        ? 2
+        : window.location.pathname === '/about'
+        ? 1
+        : 0;
+    setActiveIdx(index);
+  }, []);
+
   return (
     <>
       <span className={styles.hamburger}>

@@ -22,7 +22,6 @@ export default function Shows() {
         </div>
         <div className={styles.shows}>
           {shows.map((show) => {
-            console.log(show);
             return <img key={show} src={show} alt="show" />;
           })}
         </div>
