@@ -35,9 +35,8 @@
 
 .imageContent img {
   object-fit: cover;
-  min-width: 50px;
-  min-height: 100px;
-  transform: translateX('500px');
+  width: 54rem;
+  height: 28rem;
 }
 
 /*  (992px and less) */
@@ -59,14 +58,15 @@
   }
 
   .imageContent {
-    height: 500px;
     padding: 0px;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .imageContent img {
     object-fit: cover;
-    min-width: 50px;
-    min-height: 100px;
+    width: 36rem;
+    height: 24rem;
   }
 }
 
@@ -81,13 +81,17 @@
     font-weight: 600;
   }
   .imageContent {
-    height: 464px;
     margin-top: 5%;
   }
   .textContent {
     padding: 12px;
     line-height: 18px;
     letter-spacing: 1px;
+  }
+  .imageContent img {
+    object-fit: cover;
+    width: 32rem;
+    height: 22rem;
   }
 }
 
@@ -100,7 +104,7 @@
     margin-top: 10%;
   }
   .container {
-    height: 100vh;
+    height: fit-content;
   }
 
   .container h1 {
@@ -115,8 +119,12 @@
     font-size: 12px;
   }
 
+  .imageContent {
+    width: 0px;
+    height: 0px;
+  }
   .imageContent img {
-    width: 90%;
-    transform: translateX('200px');
+    width: 0px;
+    height: 0px;
   }
 }

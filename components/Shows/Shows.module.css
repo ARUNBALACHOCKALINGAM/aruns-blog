@@ -97,8 +97,8 @@
   }
 
   .shows img {
-    width: 4rem;
-    height: 6rem;
+    width: 6rem;
+    height: 8rem;
     transition: 0.2s ease-in-out;
   }
 }
