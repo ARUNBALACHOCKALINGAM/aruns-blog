@@ -28,14 +28,10 @@ const ThemeChanger = () => {
         className={styles.button}
         onClick={() => {
           setthemeState((prev) => (prev === 'light' ? 'dark' : 'light'));
-          setTheme(themeState === 'light' ? 'light' : 'dark');
+          setTheme(themeState === 'light' ? 'dark' : 'light');
         }}
       >
-        {themeState === 'light' ? (
-          <MdOutlineLightMode />
-        ) : (
-          <MdOutlineDarkMode />
-        )}
+        {theme === 'light' ? <MdOutlineDarkMode /> : <MdOutlineLightMode />}
       </button>
     </div>
   );

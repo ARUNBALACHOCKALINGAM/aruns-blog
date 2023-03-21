@@ -244,8 +244,8 @@
   }
 
   .card:hover {
-    -webkit-box-shadow: 0 0 19px 4px #00000038;
-    box-shadow: 0 0 19px 4px #00000038;
+    -webkit-box-shadow: 0 0 19px 4px var(--shadow);
+    box-shadow: 0 0 19px 4px var(--shadow);
     -webkit-transform: scale(1.01);
     transform: scale(1.01);
     z-index: 5;

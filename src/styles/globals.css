@@ -43,6 +43,7 @@ body {
   --foreground: black;
   --primary-accent: linear-gradient(180deg, #fffaa3, #fffaa3);
   --secondary-accent: beige;
+  --shadow: #00000038;
 }
 
 [data-theme='dark'] {
@@ -50,6 +51,7 @@ body {
   --foreground: white;
   --primary-accent: linear-gradient(180deg, #1e08c7, #3f01e9);
   --secondary-accent: black;
+  --shadow: #ffffff38;
 }
 
 body {
