@@ -63,18 +63,17 @@
   }
 
   .head h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
   }
 
   .sub {
     padding: 4%;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
   }
 
-  .images a img {
-    width: 20px;
-    height: 20px;
+  .images a svg {
+    font-size: 24px;
   }
 }
