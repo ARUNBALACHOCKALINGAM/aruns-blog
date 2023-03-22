@@ -11,5 +11,8 @@
         "callout",
         "commitlint",
         "unoptimized"
-    ]
+    ],
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    }
 }
