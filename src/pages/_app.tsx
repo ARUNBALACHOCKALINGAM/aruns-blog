@@ -2,7 +2,6 @@ import '@/styles/globals.css';
 import { ThemeProvider } from 'next-themes';
 import type { AppProps } from 'next/app';
 import { useState } from 'react';
-import Home from '.';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import Loader from '../../components/Loader/Loader';
@@ -23,7 +22,7 @@ export default function App({ Component, pageProps }: AppProps) {
         ) : (
           <>
             <Header />
-            <Home />
+            <Component {...pageProps} />
             <Footer />
           </>
         )}
