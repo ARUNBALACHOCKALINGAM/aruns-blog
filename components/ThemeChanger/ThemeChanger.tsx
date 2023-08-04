@@ -1,36 +1,27 @@
 import { useTheme } from 'next-themes';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { MdOutlineDarkMode, MdOutlineLightMode } from 'react-icons/md';
 import styles from './ThemeChanger.module.css';
+
 const ThemeChanger = () => {
-  let localtheme;
-
-  useEffect(() => {
-    localtheme = localStorage.getItem('theme');
-  }, []);
-
   const { theme, setTheme } = useTheme();
-  const [themeState, setthemeState] = useState(
-    localtheme ? localtheme : 'light'
-  );
 
   useEffect(() => {
-    if (themeState === 'light') {
-      localStorage.setItem('theme', 'dark');
-    } else {
-      localStorage.setItem('theme', 'light');
+    const localTheme = localStorage.getItem('theme');
+    if (localTheme) {
+      setTheme(localTheme);
     }
-  }, [themeState]);
+  }, [setTheme]);
+
+  const toggleTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme);
+    localStorage.setItem('theme', newTheme);
+  };
 
   return (
     <div className={styles.container}>
-      <button
-        className={styles.button}
-        onClick={() => {
-          setthemeState((prev) => (prev === 'light' ? 'dark' : 'light'));
-          setTheme(themeState === 'light' ? 'dark' : 'light');
-        }}
-      >
+      <button className={styles.button} onClick={toggleTheme}>
         {theme === 'light' ? <MdOutlineDarkMode /> : <MdOutlineLightMode />}
       </button>
     </div>
