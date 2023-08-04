@@ -6,7 +6,6 @@ const shows = [
   '/fleabag.svg',
   '/rickandmorty.svg',
   'theoffice.svg',
-  '/you.svg',
   '/bojack-horseman.jpg',
   '/modernfamily.jpg',
   '/bigbangtheory.jpg',
