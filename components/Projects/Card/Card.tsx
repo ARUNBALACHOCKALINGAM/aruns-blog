@@ -44,11 +44,15 @@ export default function Card() {
                 <p>{project.desc}</p>
                 <div
                   className={
-                    project.codeLink ? styles.buttons : styles.buttonsInactive
+                    project.codeLink ? styles.buttonsInactive : styles.Links
                   }
                 >
-                  <button className={styles.code}>CODE</button>
-                  <button className={styles.live}>LIVE</button>
+                  <a href={project.codeLink} className={styles.code}>
+                    CODE
+                  </a>
+                  <a href={project.liveLink} className={styles.live}>
+                    LIVE
+                  </a>
                 </div>
               </div>
             </div>

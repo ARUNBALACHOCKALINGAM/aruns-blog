@@ -12,8 +12,8 @@ const Body: React.FC<IBody> = () => {
         </h1>
         <br />
         <h1 className={styles.mainSub}>
-          A <span>SDE intern</span> at{' '}
-          <span className={styles.yellow}>yellow.ai</span>
+          AN <span>SDE</span> at{' '}
+          <span className={styles.yellow}>NATWEST GROUP</span>
         </h1>
         <div className={styles.para}>
           <p>

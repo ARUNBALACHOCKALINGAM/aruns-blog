@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import styles from '../Footer/Footer.module.css';
 type Props = {};
 
@@ -28,13 +28,6 @@ export default function Footer() {
           className="link-block-6 w-inline-block"
         >
           <AiFillGithub fontSize={32} />
-        </a>
-        <a
-          href="https://www.instagram.com/arun_bala_ig/"
-          target="_blank"
-          className="link-block-6 w-inline-block"
-        >
-          <AiFillInstagram fontSize={32} />
         </a>
       </div>
     </div>

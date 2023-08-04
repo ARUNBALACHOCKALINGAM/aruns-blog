@@ -17,10 +17,10 @@ export default function Work() {
           within me the belief that genuine and sincere efforts are always
           rewarded. I am grateful to{' '}
           <mark className={styles.highlight}>
-            <em> Jagmeet sir </em>
+            <em> Jagmeet</em>
           </mark>{' '}
-          sir for taking the initiative to offer this opportunity, which allowed
-          me to gain invaluable experience and make meaningful connections with
+          for taking the initiative to offer this opportunity, which allowed me
+          to gain invaluable experience and make meaningful connections with
           good people. Additionally, I extend my thanks to my fellow intern,{' '}
           <mark className={styles.highlight}> Khayti heda </mark>, for joining
           me on this journey and providing support along the way.

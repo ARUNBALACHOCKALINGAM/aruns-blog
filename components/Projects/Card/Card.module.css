@@ -44,7 +44,7 @@
   border-radius: 5px;
 }
 
-.buttons button {
+.buttons a {
   background: var(--background);
   color: var(--foreground) !important;
   color: inherit;
@@ -63,7 +63,11 @@
   padding-top: 5%;
 }
 
-.buttonsInactive button {
+.Links {
+  padding-top: 5%;
+}
+
+.buttonsInactive a {
   background: var(--background);
   color: var(--foreground) !important;
   color: inherit;
@@ -76,6 +80,22 @@
   border-radius: 12px;
   font-size: 14px;
   text-align: center;
+}
+
+.Links a {
+  background: var(--background);
+  color: var(--foreground) !important;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  padding: 5px 18px 5px 18px;
+  border-radius: 12px;
+  font-size: 14px;
+  text-align: center;
+  opacity: 0.5;
 }
 
 .live {

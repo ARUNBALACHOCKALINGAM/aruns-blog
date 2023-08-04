@@ -5,7 +5,6 @@ const shows = [
   '/himym.svg',
   '/fleabag.svg',
   '/rickandmorty.svg',
-  '/se.svg',
   'theoffice.svg',
   '/you.svg',
   '/bojack-horseman.jpg',
@@ -18,7 +17,7 @@ export default function Shows() {
     <div className={styles.container}>
       <div className={styles.pageBody}>
         <div className={styles.heading}>
-          <h2>Some tv shows I like</h2>
+          <h2>Some TV shows that I like</h2>
         </div>
         <div className={styles.shows}>
           {shows.map((show) => {
